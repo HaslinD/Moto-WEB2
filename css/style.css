@@ -207,3 +207,29 @@ h1,h2,h3,h4,h5,h6{
     background-color: #fb397d;
     border: 0 !important;
 }
+
+#subscribe {
+	background-image: url("../img/bg-subscribe.png");
+	background-size: cover;
+	background-position: top center;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+
+/*Tablet: >= 40px y <= 990px*/
+/*min-width, max-width*/
+
+@media (min-width: 480px) and (max-width:990){
+	
+	/*clases, slectores, identificadores a modificar o mejorar*/	
+	#hero {
+		height: inherit;
+		padding-bottom: 10%;
+	}
+	
+}	
+
+/*Celular: < 480px*/
